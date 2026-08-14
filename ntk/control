@@ -7,12 +7,14 @@ Build-Depends:
  debhelper-compat (= 13),
  python3,
  libcairo2-dev,
- libfontconfig1-dev,
+ libfontconfig-dev,
  libx11-dev,
  libxft-dev,
  libpng-dev,
  libgl-dev,
- libglu1-mesa-dev
+ libglu1-mesa-dev,
+ libjpeg-turbo8-dev,
+ python3-zombie-imp,
 Standards-Version: 4.7.0
 Rules-Requires-Root: no
 
