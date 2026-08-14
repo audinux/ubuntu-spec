@@ -1,0 +1,5 @@
+rakarrack-plus (1.4.1-1~ppa1~resolute) resolute; urgency=medium
+
+  * Rebuild upstream rakarrack 1.4.1 for Ubuntu 26.04.
+
+ -- Yann Collette <ycollette.nospam@free.fr>  Thu, 13 Aug 2026 08:00:00 +0200

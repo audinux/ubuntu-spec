@@ -1,0 +1,16 @@
+debian/tmp/usr/include/ntk/FL
+debian/tmp/usr/lib/x86_64-linux-gnu/libntk.so
+debian/tmp/usr/lib/x86_64-linux-gnu/libntk.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libntk.a.1
+debian/tmp/usr/lib/x86_64-linux-gnu/libntk.a.1.3.1001
+debian/tmp/usr/lib/x86_64-linux-gnu/libntk_images.so
+debian/tmp/usr/lib/x86_64-linux-gnu/libntk_images.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libntk_images.a.1
+debian/tmp/usr/lib/x86_64-linux-gnu/libntk_images.a.1.3.1001
+debian/tmp/usr/lib/x86_64-linux-gnu/libntk_gl.so
+debian/tmp/usr/lib/x86_64-linux-gnu/libntk_gl.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libntk_gl.a.1
+debian/tmp/usr/lib/x86_64-linux-gnu/libntk_gl.a.1.3.1001
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/ntk.pc
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/ntk_gl.pc
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/ntk_images.pc

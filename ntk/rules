@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	python3 waf configure \
+		--prefix=/usr \
+		--libdir=/usr/lib/$(DEB_HOST_MULTIARCH) \
+		--enable-gl
+
+override_dh_auto_build:
+	python3 waf build
+
+override_dh_auto_install:
+	rm -rf debian/tmp
+	DESTDIR=$(CURDIR)/debian/tmp python3 waf install

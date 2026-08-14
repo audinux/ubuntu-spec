@@ -1,0 +1,14 @@
+Package: libntk1-images1-dbgsym
+Package-Type: ddeb
+Source: ntk
+Version: 1.3.1001-1~ppa1~resolute
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Yann Collette <ycollette.nospam@free.fr>
+Installed-Size: 115
+Depends: libntk1-images1 (= 1.3.1001-1~ppa1~resolute)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libntk1-images1
+Build-Ids: 5bf9fc9bf95e273c747a9a5014ca62fb4b5dc9f9

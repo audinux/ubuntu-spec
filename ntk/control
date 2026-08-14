@@ -1,0 +1,73 @@
+Source: ntk
+Section: libs
+Priority: optional
+Maintainer: Yann Collette <ycollette.nospam@free.fr>
+Homepage: https://github.com/ycollet/ntk
+Build-Depends:
+ debhelper-compat (= 13),
+ python3,
+ libcairo2-dev,
+ libfontconfig1-dev,
+ libx11-dev,
+ libxft-dev,
+ libpng-dev,
+ libgl-dev,
+ libglu1-mesa-dev
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: libntk1
+Architecture: any
+Multi-Arch: same
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends}
+Description: Non ToolKit GUI library
+ NTK is a lightweight GUI toolkit derived from FLTK.
+ .
+ This package contains the shared NTK libraries.
+
+Package: libntk1-dev
+Architecture: any
+Multi-Arch: same
+Depends:
+ libntk1 (= ${binary:Version}),
+ ${misc:Depends}
+Suggests:
+ ntk-fluid
+Description: development files for NTK
+ NTK is a lightweight GUI toolkit derived from FLTK.
+ .
+ This package contains the headers, static libraries, pkg-config files
+ and symbolic links required for developing applications using NTK.
+
+Package: ntk-fluid
+Architecture: any
+Depends:
+ libntk1 (= ${binary:Version}),
+ ${shlibs:Depends},
+ ${misc:Depends}
+Description: GUI designer for NTK
+ NTK is a lightweight GUI toolkit derived from FLTK.
+ .
+ This package contains ntk-fluid, the graphical user interface designer.
+
+Package: libntk1-images1
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: NTK GUI toolkit image library
+ NTK is a lightweight GUI toolkit based on FLTK.
+ This package contains the shared library for image handling used by
+ applications built with NTK.
+
+Package: libntk1-gl1
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: NTK GUI toolkit image library
+ NTK is a lightweight GUI toolkit based on FLTK.
+ This package contains the shared library for GL handling used by
+ applications built with NTK.

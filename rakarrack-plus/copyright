@@ -1,0 +1,69 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: rakarrack-plus
+Source: https://github.com/Stazed/rakarrack-plus
+License: GPL-2
+
+Files: *
+Copyright: 2008-2010, Josep Andreu <holborn@telefonica.net>
+           José Luis Di Biase <josx@interorganic.com.ar>
+           Hernán Ordiales <h@ordia.com.ar>
+           Daniel Vidal <hdanielvidalchornet@gmail.com>
+           Carlos Pino
+           Eugenio Rubio
+           Alberto Mendez
+License: GPL-2
+
+Files: src/Alienwah.*
+       src/AnalogFilter.*
+       src/Chorus.*
+       src/Distorsion.*
+       src/DynamicFilter.*
+       src/Echo.*
+       src/EffectLFO.*
+       src/EQ.*
+       src/Filter.*
+       src/FilterParams.*
+       src/FormantFilter.*
+       src/Phaser.*
+       src/Reverb.*
+       src/SVFilter.*
+Copyright: 2002-2005, Nasca Octavian Paul
+License: GPL-2
+
+Files: src/MIDIConverter.*
+       src/Tuner.*
+Copyright: 2004-2005, Mario Lang <mlang@delysid.org>
+License: GPL-2
+
+Files: src/smbPitchShift.C
+       src/smbPitchShift.h
+Copyright: 1999-2006, Stephan M. Bernsee <smb [AT] dspdimension [DOT] com>
+License: WOL
+
+Files: debian/*
+Copyright: 2009-2025, Tiago Bortoletto Vaz <tiago@debian.org>
+License: GPL-2
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 of the License.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see https://www.gnu.org/licenses/.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file '/usr/share/common-licenses/GPL-2'.
+
+License: WOL
+ Permission to use, copy, modify, distribute and sell this software
+ and its documentation for any purpose is hereby granted without fee,
+ provided that the above copyright notice and this license appear in
+ all source copies. THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT EXPRESS
+ OR IMPLIED WARRANTY OF ANY KIND. See http://www.dspguru.com/wol.htm
+ for more information.

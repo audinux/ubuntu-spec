@@ -1,0 +1,8 @@
+usr/include/ntk/*
+usr/lib/*/libntk.so
+usr/lib/*/libntk.a*
+usr/lib/*/libntk_images.so
+usr/lib/*/libntk_images.a*
+usr/lib/*/libntk_gl.so
+usr/lib/*/libntk_gl.a*
+usr/lib/*/pkgconfig/*.pc

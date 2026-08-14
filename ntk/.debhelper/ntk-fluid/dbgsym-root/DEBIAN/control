@@ -1,0 +1,13 @@
+Package: ntk-fluid-dbgsym
+Package-Type: ddeb
+Source: ntk
+Version: 1.3.1001-1~ppa1~resolute
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Yann Collette <ycollette.nospam@free.fr>
+Installed-Size: 973
+Depends: ntk-fluid (= 1.3.1001-1~ppa1~resolute)
+Section: debug
+Priority: optional
+Description: debug symbols for ntk-fluid
+Build-Ids: 6ec44ee5a27b1638bac13f939599996c08849d24 dbc9887514e83892c85bb359ef0a824eb24dc349
